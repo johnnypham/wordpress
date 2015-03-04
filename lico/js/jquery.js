@@ -1,0 +1,1 @@
+$(document).ready(function(){  $(".show_hide").click(function(){    $(".hide_js").toggle();  });});

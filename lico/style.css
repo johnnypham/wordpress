@@ -1,0 +1,2620 @@
+@font-face {
+  font-family: 'proxima_nova_extrabold';
+  src: url("fonts/Mark Simonson - Proxima Nova Extrabold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima_nova_semibold';
+  src: url("fonts/Mark Simonson - Proxima Nova Semibold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima_nova_bold';
+  src: url("fonts/Mark Simonson - Proxima Nova Bold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima_nova_light';
+  src: url("fonts/Mark Simonson - Proxima Nova Light.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima_nova_light_italic';
+  src: url("fonts/Mark Simonson - Proxima Nova Light Italic.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima_nova_condensed_regular';
+  src: url("fonts/Mark Simonson - Proxima Nova Condensed Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima_nova_thin';
+  src: url("fonts/Mark Simonson - Proxima Nova Thin.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima_nova_regular';
+  src: url("fonts/Mark Simonson - Proxima Nova Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  margin: 0 auto;
+  font-family: proxima_nova_light;
+  font-size: 16px;
+  color: #707070;
+  letter-spacing: 1px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+#wrapper a {
+  text-decoration: none;
+}
+
+input {
+  height: 35px;
+  padding-left: 10px;
+  border: 1px solid #d4d4d4;
+  border-radius: 0 !important;
+  margin-bottom: 0 !important;
+}
+br {
+  display: none !important;s
+}
+
+textarea {
+  padding-left: 10px;
+  padding-top: 10px;
+  border-radius: 0 !important;
+}
+select {
+  border-radius: 0 !important;
+}
+label {
+  font-weight: inherit;
+  margin-bottom: 0;
+}
+
+.width_26 {
+  width: 26%;
+  margin-right: 8px;
+}
+
+.width_70 {
+  width: 70%;
+}
+
+/* Header */
+#header_menu .header_full {
+  border-bottom: 1px solid #e4e4e4;
+}
+
+#header_menu .header_full #header_page .icon_se {
+  width: 85%;
+  padding-left: 10px;
+  display: inline-block;
+}
+
+#header_menu .header_full #header_page .icon_se a {
+  color: #d4d4d4;
+  font-size: 12px;
+  font-family: proxima_nova_light_italic;
+}
+
+#header_menu .header_full #header_page .icon_se span {
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#header_menu .header_full #header_page .phone_number {
+  position: relative;
+  background: #8e2324;
+  width: 85%;
+  padding: 11px;
+  font-size: 14px;
+  color: #ffffff;
+  margin-left: 28%;
+}
+
+#header_menu .header_full #header_page .phone_number .number a {
+  color: #fff;
+}
+
+#header_menu .header_full #header_page .phone_number .number a:hover {
+  color: #fff;
+}
+
+#header_menu .header_full #header_page .phone_number:before {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 42px solid transparent;
+  border-right: 39px solid #8e2324;
+  left: -39px;
+  top: 0;
+}
+
+#header_menu .header_full #header_page .phone_number:after {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  border-bottom: 42px solid transparent;
+  border-left: 39px solid #8e2324;
+  right: -39px;
+  top: 0;
+}
+
+#header_menu #menu_page {
+  margin-top: 22px;
+  margin-bottom: 27px;
+}
+
+#header_menu #menu_page .navbar-default {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+#header_menu #menu_page .menu_main {
+  text-align: right;
+}
+
+#header_menu #menu_page .menu_main .active_page {
+  border-bottom: 2px solid #8e2324;
+}
+
+#header_menu #menu_page .menu_main a {
+  color: #9e9e9e;
+  padding-bottom: 3px;
+}
+#header_menu #menu_page .menu_main .logo_home {
+  text-align: left;
+}
+
+#header_menu #menu_page .menu_main ul a:hover,
+#header_menu #menu_page .menu_main ul a:active {
+  border-bottom: 2px solid #8e2324;
+}
+
+#header_menu #menu_page .menu_main .navbar-collapse {
+  margin-top: 30px;
+}
+
+.social_icons a {
+  padding: 10px 0px;
+  border-left: 1px solid #e4e4e4;
+  display: inline-block;
+  width: 31px;
+  text-align: center;
+}
+.video-home .caption-content {
+  display: none;
+}
+.social_icons a:nth-child(3) {
+  border-right: 1px solid #e4e4e4;
+  width: 38px;
+}
+
+#footer {
+  border-top: 1px solid #e4e4e4;
+}
+
+#footer .footer_1 {
+  margin-top: 60px;
+}
+
+#footer .col_footer .title_list {
+  color: #3c3c3c;
+  font-family: proxima_nova_regular;
+}
+
+#footer .col_footer .list_menu {
+  margin-top: 20px;
+}
+
+#footer .col_footer .list_menu a {
+  color: #9e9e9e;
+}
+
+#footer .col_footer .list_menu li {
+  margin-bottom: 15px;
+}
+
+#footer .col_footer .address {
+  margin-top: 20px;
+  color: #a5a5a5;
+  font-family: proxima_nova_bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+#footer .col_footer .address:nth-child(3){
+  margin: 0;
+}
+
+#footer .col_footer .contact {
+  margin-top: 20px;
+}
+
+#footer .col_footer .contact li {
+  margin-bottom: 10px;
+}
+
+#footer .col_footer .contact li span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#footer .col_footer .contact li .icons_group {
+  margin-right: 5px;
+}
+
+#footer .col_footer .contact li:last-child {
+  font-size: 14px;
+}
+
+#footer .background_footer {
+  position: relative;
+  bottom: 80px;
+}
+
+#footer .background_footer img {
+  width: 100%;
+}
+
+#footer .footer_2 {
+  text-align: center;
+  margin-top: -85px;
+}
+
+#footer .footer_2 .copy_right {
+  border-top: 2.5px solid #f4f4f4;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+  padding-top: 40px;
+  font-size: 12px;
+  color: #9e9e9e;
+}
+
+#footer .footer_2 .copy_right .word_red {
+  color: #8e2324;
+}
+
+#img_background .img_caption {
+  position: relative;
+  bottom: 90px;
+}
+
+#img_background .img_caption .cnt_caption {
+  background: #fff;
+  border-left: 6px solid #8e2324;
+  padding: 0px 0px 5px;
+  font-size: 50px;
+  font-family: proxima_nova_thin;
+}
+
+#img_background .img_caption .cnt_caption span {
+  display: inline-block;
+}
+
+#img_background .img_caption .cnt_caption span {
+  color: #707070;
+  margin-left: 15px;
+}
+
+#lico_service #content_page,
+#vermieter_verkaufer #content_page,
+#kontakt #content_page,
+#empfehlung #content_page,
+#suchanfrage #content_page,
+#search #content_page {
+  padding-bottom: 75px;
+  margin-top: 30px;
+}
+
+#lico_service #content_page .title_content,
+#vermieter_verkaufer #content_page .title_content,
+#kontakt #content_page .title_content,
+#empfehlung #content_page .title_content,
+#suchanfrage #content_page .title_content,
+#search #content_page .title_content {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#lico_service #content_page .title_content .title_main,
+#vermieter_verkaufer #content_page .title_content .title_main,
+#kontakt #content_page .title_content .title_main,
+#empfehlung #content_page .title_content .title_main,
+#suchanfrage #content_page .title_content .title_main,
+#search #content_page .title_content .title_main {
+  font-family: proxima_nova_bold;
+  font-size: 20px;
+  color: #3c3c3c;
+  margin-bottom: 25px;
+}
+
+#lico_service #content_page .title_content .intro_01,
+#vermieter_verkaufer #content_page .title_content .intro_01,
+#kontakt #content_page .title_content .intro_01,
+#empfehlung #content_page .title_content .intro_01,
+#suchanfrage #content_page .title_content .intro_01,
+#search #content_page .title_content .intro_01 {
+  line-height: 25px;
+}
+
+#lico_service #content_page .title_content .intro_02,
+#vermieter_verkaufer #content_page .title_content .intro_02,
+#kontakt #content_page .title_content .intro_02,
+#empfehlung #content_page .title_content .intro_02,
+#suchanfrage #content_page .title_content .intro_02,
+#search #content_page .title_content .intro_02 {
+  margin-top: 35px;
+  font-family: proxima_nova_light_italic;
+  font-size: 12px;
+  line-height: 28px;
+}
+
+#lico_service #content_page .content .width_full,
+#vermieter_verkaufer #content_page .content .width_full,
+#kontakt #content_page .content .width_full,
+#empfehlung #content_page .content .width_full,
+#suchanfrage #content_page .content .width_full,
+#search #content_page .content .width_full {
+  width: 100%;
+}
+
+#lico_service #content_page .content .title_form,
+#vermieter_verkaufer #content_page .content .title_form,
+#kontakt #content_page .content .title_form,
+#empfehlung #content_page .content .title_form,
+#suchanfrage #content_page .content .title_form,
+#search #content_page .content .title_form {
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: #707070;
+}
+
+#lico_service #content_page .content .title_field,
+#vermieter_verkaufer #content_page .content .title_field,
+#kontakt #content_page .content .title_field,
+#empfehlung #content_page .content .title_field,
+#suchanfrage #content_page .content .title_field,
+#search #content_page .content .title_field {
+  font-family: proxima_nova_bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #707070;
+}
+
+#lico_service #content_page .content .title_field p,
+#vermieter_verkaufer #content_page .content .title_field p,
+#kontakt #content_page .content .title_field p,
+#empfehlung #content_page .content .title_field p,
+#suchanfrage #content_page .content .title_field p,
+#search #content_page .content .title_field p {
+  font-family: proxima_nova_bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #707070;
+}
+
+#lico_service #content_page .content .text_box input,
+#vermieter_verkaufer #content_page .content .text_box input,
+#kontakt #content_page .content .text_box input,
+#empfehlung #content_page .content .text_box input,
+#suchanfrage #content_page .content .text_box input,
+#search #content_page .content .text_box input {
+  margin-bottom: 15px;
+  height: 35px;
+}
+
+#lico_service #content_page .content .text_box .checkbox_css input,
+#vermieter_verkaufer #content_page .content .text_box .checkbox_css input,
+#kontakt #content_page .content .text_box .checkbox_css input,
+#empfehlung #content_page .content .text_box .checkbox_css input,
+#suchanfrage #content_page .content .text_box .checkbox_css input,
+#search #content_page .content .text_box .checkbox_css input {
+  margin: -2px 5px 0px 0px;
+  border: none;
+  height: 14px;
+  display: inline-block;
+}
+
+#lico_service #content_page .content .text_box .input_css input,
+#vermieter_verkaufer #content_page .content .text_box .input_css input,
+#kontakt #content_page .content .text_box .input_css input,
+#empfehlung #content_page .content .text_box .input_css input,
+#suchanfrage #content_page .content .text_box .input_css input,
+#search #content_page .content .text_box .input_css input {
+  margin: 0px 2px 15px 0px;
+}
+
+#lico_service #content_page .content .comment,
+#vermieter_verkaufer #content_page .content .comment,
+#kontakt #content_page .content .comment,
+#empfehlung #content_page .content .comment,
+#suchanfrage #content_page .content .comment,
+#search #content_page .content .comment {
+  height: 104px;
+  width: 100%;
+  border-color: #d4d4d4;
+}
+
+#lico_service #content_page .content .button,
+#vermieter_verkaufer #content_page .content .button,
+#kontakt #content_page .content .button,
+#empfehlung #content_page .content .button,
+#suchanfrage #content_page .content .button,
+#search #content_page .content .button {
+  text-align: center;
+  margin-top: 68px;
+}
+#single-page .content .button {
+  margin: 40px 0;
+  text-align: center;
+}
+
+#lico_service #content_page .content .button .btn_red,
+#vermieter_verkaufer #content_page .content .button .btn_red,
+#kontakt #content_page .content .button .btn_red,
+#empfehlung #content_page .content .button .btn_red,
+#suchanfrage #content_page .content .button .btn_red,
+#search #content_page .content .button .btn_red,
+#single-page .content .button .btn_red{
+  background: #8e2324;
+  border: none;
+  height: 37px;
+  width: 37px;
+  vertical-align: top;
+}
+
+#lico_service #content_page .content .button .btn_white,
+#vermieter_verkaufer #content_page .content .button .btn_white,
+#kontakt #content_page .content .button .btn_white,
+#empfehlung #content_page .content .button .btn_white,
+#suchanfrage #content_page .content .button .btn_white,
+#search #content_page .content .button .btn_white {
+  background: #fff;
+  border: 1px solid #d4d4d4;
+  height: 37px;
+  padding: 0px 13px;
+  margin-left: -6px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+#lico_service #content_page .content .css_select,
+#vermieter_verkaufer #content_page .content .css_select,
+#kontakt #content_page .content .css_select,
+#empfehlung #content_page .content .css_select,
+#suchanfrage #content_page .content .css_select,
+#search #content_page .content .css_select,
+#single-page .content .css_select,
+.category-wohnung-kaufen .css_select {
+  overflow: hidden;
+  background: url(images/down_arrow.png) no-repeat 98% #fff;
+  height: 34px;
+}
+#vermieter_verkaufer #content_page .content .sex .css_select{
+  background: url(images/down_arrow.png) no-repeat 90% #fff;
+}
+
+#lico_service #content_page .content .css_select .dropdown_css,
+#vermieter_verkaufer #content_page .content .css_select .dropdown_css,
+#kontakt #content_page .content .css_select .dropdown_css,
+#empfehlung #content_page .content .css_select .dropdown_css,
+#suchanfrage #content_page .content .css_select .dropdown_css,
+#search #content_page .content .css_select .dropdown_css,
+#kontakt #content_page .content .text_box select,
+#single-page .content select,
+.category-wohnung-kaufen select {
+  width: 100%;
+  background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+#home_page #img_background_home .img_caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+  }
+  #home_page #img_background_home .img_caption .mask {
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    opacity: 0.2;
+    height: 100%;
+    top: 0;
+  }
+  #home_page #img_background_home .img_caption .caption-content {
+    position: absolute;
+    opacity: 1;
+    bottom: 15%;
+    left: 18%;
+  }
+
+#home_page #img_background_home .img_caption .cap_01 {
+  font-size: 50px;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+#home_page #img_background_home .img_caption .cap_02 p {
+  position: relative;
+  font-size: 20px;
+  font-family: proxima_nova_bold;
+  background: #8e2324;
+  display: inline;
+  padding: 8px 10px 6px 20px;
+  letter-spacing: 9px;
+  word-spacing: 1px;
+}
+
+#home_page #img_background_home .img_caption .cap_02 p:after {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 38px solid transparent;
+  border-left: 39px solid #8e2324;
+  right: -39px;
+  top: 0;
+}
+
+#home_page #img_background_home .img_caption .cap_03 {
+  font-size: 28px;
+  font-family: proxima_nova_light_italic;
+  margin-top: 20px;
+  letter-spacing: 3px;
+}
+
+#home_page #content_1 {
+  margin-top: 60px;
+  margin-bottom: 35px;
+}
+
+#home_page #content_1 .tittle_cnt_1 {
+  text-align: center;
+  margin-bottom: 55px;
+  color: #3c3c3c;
+  font-family: proxima_nova_bold;
+  font-size: 20px;
+}
+
+#home_page #content_1 .tittle_cnt_1 h3 {
+  line-height: 32px;
+}
+
+#home_page #content_1 .icon_check {
+  width: 5%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#home_page #content_1 .cnt_list {
+  width: 94%;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 27px;
+  margin-top: -5px;
+}
+
+#home_page #content_1 .list-check {
+  margin-bottom: 20px;
+}
+
+#home_page #content_2 {
+  position: relative;
+}
+
+#home_page #content_2 #line {
+  border-top: 1px solid #e4e4e4;
+  width: 97%;
+  position: relative;
+  left: 15px;
+  bottom: -26px;
+}
+
+#home_page #content_2 .title_cnt_2 {
+  background: #8e2324;
+  color: #ffffff;
+  font-family: proxima_nova_bold;
+  font-size: 14px;
+  padding: 6px 0px 6px 12px;
+  width: 160px;
+  margin-left: 15px;
+  position: relative;
+}
+
+#home_page #content_2 .title_cnt_2:after {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 26px solid transparent;
+  border-left: 26px solid #8e2324;
+  right: -26px;
+  top: 0;
+}
+
+#home_page #content_2 .img_sec {
+  margin-top: 35px;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #8e2324;
+  width: 97.8%;
+  padding-bottom: 3px;
+}
+
+
+/*
+	#home_page #content_2 .img_sec {
+  margin-top: 35px;
+margin-bottom: 25px;
+border-bottom: 2px solid #8e2324;
+width: 97.8%;
+padding-bottom: 3px;
+height: 107px;
+background-position: cent
+background-repeat: no-repeat;
+background-size: cover;
+}*/
+
+#home_page #content_2 .img_sec img {
+	width: 100%;
+	max-height: 105px;
+	max-width: 100%;
+	}
+
+#home_page #content_2 .content_box {
+  font-size: 14px;
+  text-align: center;
+  margin-left: 0%;
+  margin-right: 2%;
+}
+
+#home_page #content_2 .content_box .title_col {
+  margin-bottom: 20px;
+  color: #3c3c3c;
+  min-height: 40px;
+  font-family: proxima_nova_bold;
+  font-size: 14px;
+  line-height: 20px;
+}
+#home_page #content_2 .content_box .title_col a,
+#home_page #content_2 .content_box .title_col a:hover {
+  color: #000;
+}
+#home_page #content_2 .content_box .cnt_col {
+  margin-bottom: 30px;
+}
+
+#home_page #content_2 .content_box .cnt_col p {
+  line-height: 27px;
+  min-height: 108px;
+}
+
+#home_page #content_2 .content_box .read_more {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+#home_page #content_2 .content_box .read_more a {
+  border: 1px solid #e4e4e4;
+  padding: 7px 10px 7px 0px;
+  color: #8e2324;
+}
+
+#home_page #content_2 .content_box .read_more .right_arrow {
+  background: #8e2324;
+  padding: 8px 16px;
+}
+
+#home_page #content_2 .content_box .read_more .name_arrow {
+  font-size: 12px;
+  font-family: proxima_nova_light;
+  padding-left: 5px;
+}
+
+#lico_service #content_page {
+  text-align: center;
+}
+
+#lico_service #content_page .service_box {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+#lico_service #content_page .service_box .title_ser {
+  margin-bottom: 80px;
+  font-size: 30px;
+  font-family: proxima_nova_thin;
+}
+
+#lico_service #content_page .service_box .all_service a {
+  color: #9e9e9e;
+}
+
+#lico_service #content_page .service_box .all_service span {
+  display: block;
+  line-height: 26px;
+}
+
+#lico_service #content_page .service_box .all_service .icon_ser {
+  margin-bottom: 20px;
+}
+
+#lico_service #content_page .service_box .all_service .row_01 {
+  margin-bottom: 70px;
+}
+#lico_service #content_page .service_box .all_service .row_01 .col-md-4 {
+  margin-top: 20px;
+}
+
+#impressum #content_page {
+  padding-bottom: 75px;
+  margin-top: 23px;
+}
+
+#impressum #content_page .content_left .name_member {
+  display: block;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #8e2324;
+  width: 26.5%;
+}
+
+#impressum #content_page .content_left .name_member .name {
+  font-size: 24px;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+#impressum #content_page .content_left .name_member .position {
+  font-family: proxima_nova_light_italic;
+  margin-bottom: 15px;
+}
+
+#impressum #content_page .content_left .license p {
+  line-height: 33px;
+}
+
+#impressum #content_page .content_right {
+  text-align: right;
+}
+
+#impressum #content_page .content_right .name_company {
+  font-family: proxima_nova_bold;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+#impressum #content_page .content_right .name_company span:first-child {
+  color: #8e2324;
+}
+
+#impressum #content_page .content_right .name_company span:last-child {
+  color: #3c3c3c;
+}
+
+#impressum #content_page .content_right .address {
+  margin-bottom: 30px;
+  line-height: 20px;
+}
+
+#impressum #content_page .content_right .address span {
+  display: block;
+  margin-bottom: 15px;
+}
+
+#impressum #content_page .content_right .contact span {
+  display: block;
+  margin-bottom: 15px;
+}
+
+#impressum #content_page .content_right .contact a {
+  color: #9e9e9e;
+}
+
+#vermieter_verkaufer #content_page {
+  padding-bottom: 75px;
+}
+
+#vermieter_verkaufer #content_page .title_content {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#vermieter_verkaufer #content_page .title_content .intro_02 {
+  margin-top: 35px;
+  font-family: proxima_nova_light_italic;
+  font-size: 12px;
+  line-height: 28px;
+}
+
+#vermieter_verkaufer #content_page .content .form-box .width_full {
+  width: 100%;
+}
+
+#vermieter_verkaufer #content_page .content .form-box .title_form {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+#vermieter_verkaufer #content_page .content .form-box .title_field p {
+  font-family: proxima_nova_bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+#vermieter_verkaufer #content_page .content .form-box .text_box select {
+  margin-bottom: 15px;
+  height: 36px;
+}
+
+#vermieter_verkaufer #content_page .content .form-box .text_box input {
+  margin-bottom: 15px;
+  height: 35px;
+}
+
+#vermieter_verkaufer #content_page .content .form-box .form_left select {
+  width: 100%;
+}
+
+#vermieter_verkaufer #content_page .content .form-box .form_left input {
+  width: 100%;
+}
+
+#vermieter_verkaufer #content_page .content .form-box .form_left .title_field p {
+  margin-bottom: 35px;
+}
+
+#vermieter_verkaufer #content_page .content .form-box .form_left .title_field .margin_30px {
+  margin-bottom: 30px;
+}
+
+#vermieter_verkaufer #content_page .content .form-box .form_left .field_unit {
+  position: relative;
+}
+
+#vermieter_verkaufer #content_page .content .form-box .form_left .field_unit .unit {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  font-size: 14px;
+  color: #707070;
+  background: #fff;
+  text-align: center;
+  padding: 13px 10px 0px 6px;
+}
+
+#vermieter_verkaufer #content_page .content .form-box .form_left .field_unit .unit sup {
+  font-size: 11px;
+  margin-left: -5px;
+}
+
+#vermieter_verkaufer #content_page .content .form-box .form_right .form_box .title_field p {
+  margin-bottom: 20px;
+}
+
+#vermieter_verkaufer #content_page .content .form-box .form_right .form_box .title_field .margin_27px {
+  margin-bottom: 27px;
+}
+
+#vermieter_verkaufer #content_page .content .form-box .form_right .form_box .title_field .margin_37px {
+  margin-bottom: 37px;
+}
+
+#vermieter_verkaufer #content_page .content .form-box .form_right .form_box .text_box .sex_name {
+  display: inline-block;
+}
+
+#vermieter_verkaufer #content_page .content .form-box .form_right .form_box .text_box .sex_name .sex {
+  width: 24%;
+  margin-right: 13px;
+  display: inline-block;
+  vertical-align: top;
+  background-position: 87%;
+}
+
+#vermieter_verkaufer #content_page .content .form-box .form_right .form_box .text_box .sex_name .name {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#vermieter_verkaufer #content_page .content .form-box .form_right .form_box .text_box .name {
+  width: 71%;
+}
+
+#vermieter_verkaufer #content_page .content .form-box .form_right .form_box .text_box .name .name_01 {
+  width: 38%;
+  margin-right: 13px;
+}
+
+#vermieter_verkaufer #content_page .content .form-box .form_right .form_box .text_box .name .name_02 {
+  width: 55%;
+}
+
+#vermieter_verkaufer #content_page .content .form-box .form_right .form_box .text_box .box_01 {
+  width: 24%;
+  margin-right: 13px;
+}
+
+#vermieter_verkaufer #content_page .content .form-box .form_right .form_box .text_box .box_02 {
+  width: 71%;
+}
+
+#kontakt #content_page .content .sex_land {
+  width: 60%;
+}
+
+#kontakt #content_page .content .form_left .title_field p {
+  margin-bottom: 35px;
+}
+
+#kontakt #content_page .content .form_right .sentence {
+  margin-bottom: 15px;
+  font-family: proxima_nova_light_italic;
+  font-size: 14px;
+}
+
+#kontakt #content_page .content .form_right .form_box .title_field p:first-child {
+  margin-bottom: 110px;
+}
+
+#kontakt #content_page .content .form_right .form_box .title_field p:last-child {
+  margin-top: 103px;
+}
+
+#kontakt #content_page .content .form_right .form_box .text_box .comment {
+  margin-bottom: 15px;
+}
+
+#kontakt #content_page .content .form_right .form_box .text_box .security {
+  margin-bottom: 5px;
+}
+
+#kontakt #content_page .content .form_right .form_box .text_box .security input {
+  width: 30%;
+}
+
+#kontakt #content_page .content .form_right .form_box .text_box .security .captcha {
+  width: 75px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#kontakt #content_page .content .form_right .form_box .text_box .security .captcha img {
+  width: 100%;
+}
+#kontakt #content_page .content .text_box p {
+  margin-top: 10px;
+}
+#kontakt #content_page .thumbnail .caption h3 {
+  text-transform: uppercase;
+  text-align: center;
+}
+#kontakt #content_page .thumbnail .caption ul {
+  list-style: none;
+  padding: 0;
+}
+#kontakt #content_page .thumbnail .image img {
+  width: 100%;
+}
+#kontakt #content_page .thumbnail {
+  border: none;
+}
+
+#empfehlung #content_page {
+  padding-top: 75px;
+}
+
+#empfehlung #content_page .form_box .cnt_title {
+  margin-bottom: 40px;
+}
+
+#empfehlung #content_page .form_box .cnt_title p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #707070;
+}
+
+#empfehlung #content_page .form_left .text_box .comment {
+  height: 135px !important;
+}
+
+#empfehlung #content_page .form_right .title_field p {
+  margin-bottom: 35px;
+}
+
+#suchanfrage #content_page .row_style {
+  margin-bottom: 15px;
+}
+
+#suchanfrage #content_page .checkbox_css {
+  margin-bottom: -5px;
+}
+
+#suchanfrage #content_page .checkbox_css input {
+  margin-top: 0px;
+  margin-right: 7px;
+}
+
+#suchanfrage #content_page .form_box_01 .form_left .title_field .note {
+  font-size: 12px;
+  font-family: proxima_nova_light;
+  display: block;
+  margin-top: 20px;
+  width: 80%;
+}
+
+#suchanfrage #content_page .form_box_01 .form_left .checkbox_group {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#suchanfrage #content_page .form_box_01 .form_left .checkbox_group .checkbox_css span {
+  font-size: 11px;
+}
+
+#suchanfrage #content_page .form_box_01 .form_right .group_input span {
+  color: #707070;
+}
+
+#suchanfrage #content_page .form_box_01 .form_right .group_input .input_left {
+  width: 49%;
+  display: inline-block;
+}
+
+#suchanfrage #content_page .form_box_01 .form_right .group_input .input_left input {
+  width: 83%;
+}
+
+#suchanfrage #content_page .form_box_01 .form_right .group_input .input_right {
+  width: 49%;
+  display: inline-block;
+}
+
+#suchanfrage #content_page .form_box_01 .form_right .group_input .input_right input {
+  width: 84%;
+}
+
+#suchanfrage #content_page .form_box_01 .form_right .group_input .input_right sup {
+  font-size: 12px;
+  margin-left: -5px;
+}
+
+#suchanfrage #content_page .form_box_02 .form_left .row_1 .css_select {
+  background: url(images/down_arrow.png) no-repeat 90% #fff;
+}
+
+#suchanfrage #content_page .form_box_02 .form_left .row_1 .name_01 {
+  width: 25%;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+#suchanfrage #content_page .form_box_02 .form_left .row_1 .name_02 {
+  width: 41%;
+  vertical-align: top;
+}
+
+#suchanfrage span.wpcf7-list-item {
+  margin-left: 0;
+}
+
+#search #content_page .title_content {
+  margin: 0px;
+  text-align: left;
+}
+
+#search #content_page .content {
+  border-bottom: 1px solid #d4d4d4;
+  padding-bottom: 35px;
+  margin-bottom: 40px;
+}
+
+#search #content_page .content .search {
+  width: 39%;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+#search #content_page .content .search .icon_search {
+  position: absolute;
+  right: 10px;
+  top: 11px;
+}
+
+#search #content_page .width_75 {
+  width: 75%;
+}
+
+#search #content_page .result_search {
+  margin-bottom: 35px;
+  font-size: 14px;
+}
+
+#search #content_page .result_search .title_result {
+  font-size: 24px;
+  font-family: proxima_nova_regular;
+  color: #8e2324;
+  margin-bottom: 25px;
+}
+
+#search #content_page .result_search .title_result span {
+  border-bottom: 1px solid #c69191;
+}
+
+#search #content_page .result_search .cnt_result .word_search {
+  font-family: proxima_nova_extrabold;
+}
+
+/*Vien DSV*/
+#vermieter_verkaufer .form_left .title_form p, #vermieter_verkaufer .form_right .title_form p {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.form_left p, .form_right p {
+
+  font-family: proxima_nova_bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.wpcf7-form-control-wrap textarea {
+  height: 95px;
+  width: 100%;
+  border-color: #d4d4d4;
+}
+
+.wpcf7-form-control.wpcf7-submit {
+  background: #fff;
+  border: 1px solid #d4d4d4;
+  height: 37px;
+  padding: 0px 13px;
+  margin-left: -6px;
+  font-size: 12px;
+}
+
+.wpcf7-form-control-wrap input {
+  width: 100%;
+  margin-bottom: 15px;
+  height: 35px;
+  border: 1px solid #d4d4d4;
+
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 24px;
+}
+.menu li:last-child {
+  margin-right: 0;
+}
+
+#vermieter_verkaufer #content_page .content .wpcf7-form .title_field p {
+  font-family: proxima_nova_bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+#vermieter_verkaufer #content_page .content .wpcf7-form .form_left .title_field p {
+  margin-bottom: 40px;
+}
+
+#vermieter_verkaufer #content_page .content .wpcf7-form .form_left .field_unit .unit {
+  font-size: 14px;
+  font-family: proxima_nova_bold;
+}
+
+#vermieter_verkaufer #content_page .content .wpcf7-form .form_left .field_unit {
+  position: relative;
+}
+
+div.wpcf7-mail-sent-ok {
+  border: none !important
+}
+
+span.wpcf7-not-valid-tip {
+  display: none !important;
+}
+
+div.wpcf7-validation-errors {
+  border: none !important;
+  color: red;
+}
+
+#vermieter_verkaufer #content_page .content .wpcf7-form .form_right .form_box .text_box .sex_name .sex {
+  margin-right: 13px;
+  float: left;
+  display: inline-block;
+  vertical-align: top;
+  background-position: 87%;
+}
+
+#vermieter_verkaufer #content_page .content .wpcf7-form .form_right .form_box .text_box .sex_name {
+  display: inline-block;
+}
+
+#vermieter_verkaufer #content_page .content .wpcf7-form .text_box input {
+  margin-bottom: 15px;
+  height: 35px;
+  border: 1px solid #d4d4d4;
+}
+
+#vermieter_verkaufer #content_page .content .wpcf7-form .form_right .form_box .text_box .box_01 {
+  width: 24%;
+  float: left;
+  margin-right: 17px;
+}
+
+#vermieter_verkaufer #content_page .content .wpcf7-form .form_right .form_box .text_box .box_02 {
+  width: 71%;
+}
+
+#vermieter_verkaufer #content_page .content .wpcf7-form .form_right .form_box .title_field p {
+  margin-bottom: 28px;
+}
+
+input#searchsubmit {
+  width: 30px;
+  text-indent: -99999px;
+  background: url('images/icon_search.png');
+  border: none;
+  height: 26px;
+  background-repeat: no-repeat;
+  background-position: 5px 7px;
+}
+
+input#s {
+  border: none;
+  font-style: italic;
+  font-size: 13px;
+  width: 200px;
+  margin-left: -15px;
+}
+
+#header_menu #menu_page .current_page_item a {
+  border-bottom: 2px solid #8e2324;
+}
+
+#home_page #content_2 .title_cnt_2 p {
+  margin: 0px;
+
+}
+
+#home_page #content_2 .title_cnt_2 {
+  padding: 6px 0px 0px 12px;
+}
+
+#suchanfrage .checkbox_css input {
+  height: 14px
+}
+
+#suchanfrage .checkbox_list .checkbox_css, #suchanfrage .checkbox_group .checkbox_css {
+  padding: 0 5px 10px 0;
+}
+
+.checkbox_list .wpcf7-form-control-wrap input[type='checkbox'] {
+  width: 5%
+}
+
+.wpcf7-form-control-wrap .width_26 {
+  width: 26%;
+  margin-right: 8px;
+}
+
+.wpcf7-form-control-wrap .width_70 {
+  width: 70%;
+}
+
+.checkbox_group .wpcf7-form-control-wrap input[type='checkbox'] {
+  width: 9%;
+  margin-left: 0px;
+}
+
+#suchanfrage #content_page .form_box_01 .form_right .group_input span.wpcf7-form-control-wrap {
+  width: 84%;
+  float: left;
+}
+
+#suchanfrage #content_page .form_box_01 .form_right .group_input .input_left input {
+  width: 96%
+}
+
+#suchanfrage #content_page .form_box_01 .form_right .group_input .input_right input {
+  width: 96%
+}
+
+.checkbox-46 .wpcf7-list-item-label {
+  display: none
+}
+
+.sd #searchform {
+  border: 1px solid #ececec
+}
+
+.sd input#s {
+  width: 94%
+}
+
+.footer_mobile {
+  display: none;
+}
+
+.html5-info-bar, .html5-video-controls {
+  display: none
+}
+
+iframe {
+  border: none;
+}
+
+.modal-content {
+  background: none;
+  box-shadow: none;
+  border: none
+}
+
+button.close {
+  color: #fff;
+  background: #8e2324;
+  border-radius: 26px;
+  opacity: 1;
+  width: 24px;
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+  height: 25px;
+  left: 18px;
+  padding-bottom: 4px;
+}
+
+.modal-body {
+  padding: 0px
+}
+
+.img_footer img {
+  width: 100%;
+}
+#suchanfrage #content_page .content .form_box_01 .row_4 input,
+#suchanfrage #content_page .content .form_box_01 .row_5 input,
+#suchanfrage #content_page .content .form_box_01 .row_6 input,
+#suchanfrage #content_page .content .form_box_01 .row_7 input,
+#suchanfrage #content_page .content .form_box_01 .row_8 input {
+  width: 85%;
+  display: inline-block;
+}
+#suchanfrage #content_page .content .form_box_01 .row_4 span:last-child,
+#suchanfrage #content_page .content .form_box_01 .row_5 span:last-child,
+#suchanfrage #content_page .content .form_box_01 .row_6 span:last-child,
+#suchanfrage #content_page .content .form_box_01 .row_7 span:last-child,
+#suchanfrage #content_page .content .form_box_01 .row_8 span:last-child {
+  padding-left: 2px;
+}
+#header_page .col-md-3 .phone_number .number-call {
+  display: inline-block !important;
+}
+.category-wohnung-kaufen #content {
+  padding-bottom: 20px;
+}
+.pgwSlideshow ul{
+  margin: 0px;
+  padding: 0px;
+}
+#single-page{
+  margin-top:20px 
+}
+#single-page .nav-tabs>li>a{
+ border: none;
+ border-radius: 0px;
+ color: #000;
+text-transform: uppercase;
+}
+#single-page .nav-tabs>li.active>a,#single-page .nav-tabs>li>a:hover{
+background: #8e2324;
+color: #fff;
+}
+#form-search-cate{
+  display: inline-block;
+width: 100%;
+}
+#form-search-cate .form-control{
+  border-radius: 0 !important
+}
+#form-search-cate input{
+width: 100%
+
+} #slider-range{
+  margin-top: 10px
+}
+#form-search-cate #search_cate{
+  margin: 21px 0px 0px 0px;
+  background: #8e2324;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  font-size:13px;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 767px) and (min-width: 0px) {
+  #header_page #phone_btn-mobile .phone_number .number {
+    display: none;
+    font-size: 11px;
+  }
+
+  #header_page .mobile-call {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 65% !important
+  }
+
+  #phone_btn-mobile {
+    float: right;
+  }
+
+  #header_menu .header_full #header_page .phone_number {
+    width: 72%;
+  }
+
+  #content_page {
+    padding-bottom: 20px !important;
+  }
+
+  #header_page {
+    position: relative;
+    padding: 0;
+  }
+
+  #header_page .social_icons {
+    width: 75%;
+    display: inline-block;
+    padding: 0;
+  }
+
+  #header_page .col-md-3 {
+    width: 16%;
+    display: inline-block;
+    padding: 0;
+    float: right;
+  }
+
+  #header_page .col-md-3 .phone_number:after {
+    display: none;
+  }
+
+  #header_page .col-md-3 .phone_number .number {
+    display: none;
+  }
+
+  #header_menu .header_full #header_page .icon_se {
+    padding: 0;
+    width: 50%;
+  }
+
+  #header_menu .header_full #header_page .icon_se input#s {
+    width: 75%;
+    padding: 0;
+  }
+
+  #header_menu #menu_page {
+    margin: 0;
+  }
+
+  #header_menu #menu_page .menu_main .container-fluid {
+    padding: 0;
+  }
+
+  #header_menu #menu_page .menu_main .container-fluid .navbar-header button {
+    float: left;
+    border-color: #fff;
+    background-color: #8e2324;
+    width: 70px;
+    height: 70px;
+    display: block;
+    text-align: center;
+    margin: 0;
+    border-radius: 0;
+    top: -2px;
+    left: -2px;
+    border-bottom: transparent;
+  }
+
+  #header_menu #menu_page .menu_main .container-fluid .navbar-header button .icon-bar {
+    margin-left: 12px;
+    background-color: #fff;
+  }
+
+  #header_menu #menu_page .navbar-default {
+    margin-bottom: -2px;
+    background: none;
+    border: none;
+  }
+
+  .home #header_menu #menu_page .navbar-default {
+    margin-bottom: -3px;
+  }
+
+  #header_menu #menu_page .menu_main .container-fluid .navbar-header .navbar-nav {
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  #menu-main-menu {
+    padding: 0;
+  }
+
+  #menu-main-menu li {
+    float: none;
+    text-align: left;
+    background: #8e2324;
+    border-bottom: 1px solid #49181b;
+    padding: 5px 0;
+    margin-right: 0;
+    display: block;
+  }
+
+  #menu-main-menu li:hover {
+    background: #721314;
+  }
+
+  #menu-main-menu li a {
+    width: 100%;
+    display: block;
+    padding-bottom: 0;
+    padding-left: 15px;
+  }
+
+  #header_menu #menu_page .menu_main ul a:hover, #header_menu #menu_page .menu_main ul a:active {
+    border-bottom: none;
+    color: #fff;
+  }
+
+  .logo_home {
+    width: 90px;
+    float: right;
+    right: 40%;
+    margin-top: 10px;
+    line-height: 0;
+  }
+
+  .logo_home a {
+    margin: 0;
+  }
+
+  .logo_home a img {
+    width: 100%;
+  }
+
+  #header_menu #menu_page .menu_main .navbar-collapse {
+    width: 100%;
+    /*    margin-left: 2px;
+    */
+    padding: 0;
+    position: relative;
+    top: -3px;
+    border: none;
+  }
+
+  .transparent-btns_tabs {
+    display: none;
+  }
+
+
+  #home_page #img_background_home .img_caption .caption-content {
+    left: 10%;
+  }
+  #home_page #img_background_home .img_caption .caption-content .cap_01 {
+    margin-bottom: 5px;
+  }
+  #home_page #img_background_home .img_caption {
+    padding: 0;
+    display: inline-block;
+    bottom: 0px;
+    left: 0px;
+  }
+
+  #home_page #img_background_home .img_caption .cap_01 {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  #home_page #img_background_home .img_caption .cap_02 p {
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+  }
+
+  #header_menu #menu_page .current_page_item a {
+    border-bottom: none;
+  }
+
+  #home_page #img_background_home .img_caption .cap_02 p:after {
+    border-top: 25px solid transparent;
+    border-left: 25px solid #8e2324;
+    right: -25px;
+  }
+
+  #home_page #content_1 {
+    margin: 0 0 18px 0;
+  }
+
+  #home_page #content_1 .tittle_cnt_1 {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  #home_page #content_1 .tittle_cnt_1 p {
+    display: none;
+  }
+
+  #home_page #content_1 .tittle_cnt_1 h3 {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+  }
+
+  #cnt_left,
+  #cnt_right,
+  #cnt_1,
+  #cnt_2,
+  #cnt_3 {
+    padding: 0;
+  }
+
+  #home_page #content_1 .icon_check {
+    width: 10%;
+  }
+
+  #home_page #content_1 .cnt_list {
+    width: 90%;
+    font-size: 13px;
+  }
+
+  #home_page #content_2 {
+    margin-bottom: 40px;
+  }
+
+  #home_page #content_2 .title_cnt_2 {
+    margin-left: 0;
+  }
+
+  #home_page #content_2 .img_sec {
+    width: 100%;
+    margin: 40px 0 24px 0;
+  }
+
+  #home_page #content_2 .content_box .title_col {
+    margin-bottom: 0;
+  }
+
+  #home_page #content_2 .content_box .read_more {
+    display: none;
+  }
+
+  #home_page #content_2 .content_box .cnt_col {
+    margin-bottom: -20px;
+  }
+
+  #footer .footer_1 {
+    display: none;
+  }
+
+  #footer .footer_2 {
+    margin-top: 0px;
+  }
+
+  #footer .footer_mobile {
+    display: block;
+    margin-top: 5px;
+  }
+  #footer .footer_mobile #three {
+    margin-left: 15px;
+  }
+  #footer .footer_mobile #three .address:nth-child(2) {
+    margin:0;
+  }
+  #footer .footer_mobile .col_footer .list_menu {
+    margin: 5px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+
+  #footer .footer_mobile .col_footer .contact {
+    text-align: left;
+  }
+
+  #footer .footer_mobile .accordion-heading {
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+
+  #footer .footer_mobile .accordion-heading a {
+    color: #3c3c3c;
+    font-size: 14px;
+  }
+
+  .img_footer img {
+    width: 100%;
+  }
+
+  /*Service Page*/
+  #lico_service {
+    margin-top: -10px;
+  }
+
+  #lico_service #content_page {
+    padding-bottom: 0;
+  }
+
+  #lico_service #img_background {
+    background-image: url('images/img_background_licoservice.png');
+    background-repeat: no-repeat;
+    /* width: 100px; */
+    height: 90px;
+    background-size: 1000px;
+    background-position-x: 65%;
+  }
+
+  #lico_service #img_background img {
+    display: none;
+  }
+
+  #img_background .img_caption {
+    bottom: -38%;
+  }
+
+  #img_background .img_caption .cnt_caption {
+    font-size: 20px;
+    padding: 5px 0;
+  }
+
+  #lico_service #content_page .title_content {
+    margin: 0;
+  }
+
+  #lico_service #content_page .title_content .title_main {
+    font-size: 14px;
+  }
+
+  #lico_service #content_page .title_content .intro {
+    font-size: 13px;
+  }
+
+  #lico_service #content_page .service_box .title_ser {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  #lico_service #content_page .service_box {
+    margin: 0;
+  }
+
+  #lico_service #content_page .service_box .all_service {
+    padding: 0;
+  }
+
+  #lico_service #content_page .service_box .all_service .service {
+    display: inline-block;
+    width: 49%;
+    font-size: 10px;
+    vertical-align: top;
+    margin-bottom: 10px;
+  }
+
+  #lico_service #content_page .service_box .all_service .icon_ser {
+    margin: 0;
+  }
+
+  #lico_service #content_page .service_box .all_service span {
+    font-size: 10px;
+    line-height: 18px;
+  }
+
+  #lico_service #content_page .service_box .all_service .row_01 {
+    margin-bottom: 0;
+  }
+
+  /*Verkaufer Page*/
+  #vermieter_verkaufer #img_background {
+    background-image: url('images/img_background_vermieter.png');
+    background-repeat: no-repeat;
+    /* width: 100px; */
+    height: 90px;
+    background-size: 1000px;
+    background-position-x: 65%;
+  }
+
+  #vermieter_verkaufer #img_background img {
+    display: none;
+  }
+
+  #img_background .img_caption .cnt_caption span {
+    margin-left: 5px;
+  }
+
+  #vermieter_verkaufer #content_page .title_content .title_main {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  #vermieter_verkaufer #content_page .title_content {
+    margin: 0;
+    line-height: 20px;
+  }
+
+  #vermieter_verkaufer #content_page .title_content .intro_01 {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  #vermieter_verkaufer #content_page .title_content .intro_02 {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 0;
+  }
+
+  #vermieter_verkaufer #content_page .content,
+  #vermieter_verkaufer #content_page .content .form_left,
+  #vermieter_verkaufer #content_page .content .form_right {
+    padding: 0;
+  }
+
+  #vermieter_verkaufer #content_page .content .title_form {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  #vermieter_verkaufer #content_page .content .title_form p {
+    font-family: "proxima_nova_light";
+    line-height: 18px;
+    font-size: 14px;
+    margin: 0;
+  }
+
+  #suchanfrage #content_page .content .title_form p span,
+  #vermieter_verkaufer #content_page .content .title_form p span{
+    font-size: 12px;
+    text-transform: lowercase;
+    font-style: italic;
+    display: block;
+  }
+
+  #vermieter_verkaufer #content_page .content .wpcf7-form .form_right .form_box .title_field p {
+    margin-bottom: 10px;
+  }
+
+  #vermieter_verkaufer .form_left .title_form p {
+    margin: 0;
+  }
+
+  #vermieter_verkaufer #content_page .content .wpcf7-form .form_left .title_field p {
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+  }
+
+  #vermieter_verkaufer #content_page .content .wpcf7-form .form_right .form_box .text_box .box_02 {
+    width: 70%;
+  }
+
+  #vermieter_verkaufer #content_page .content .button {
+    margin-top: 20px;
+  }
+
+  /*Suchanfrage Page*/
+  #suchanfrage #img_background {
+    background-image: url('images/img_background_vermieter.png');
+    background-repeat: no-repeat;
+    height: 90px;
+    background-size: 1000px;
+    background-position-x: 65%;
+  }
+
+  #suchanfrage #img_background img {
+    display: none;
+  }
+
+  #suchanfrage #content_page .title_content {
+    margin: 0;
+    line-height: 20px;
+  }
+
+  #suchanfrage #content_page .title_content .title_main {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  #suchanfrage #content_page .title_content .intro_01 {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  #suchanfrage #content_page .title_content .intro_02 {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 10px;
+  }
+
+  #suchanfrage #content_page .content .title_form {
+    font-size: 14px;
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  #suchanfrage .content {
+    padding: 0;
+  }
+
+  #suchanfrage #content_page .content .title_field br {
+    display: none;
+  }
+
+  #suchanfrage #content_page .row_style {
+    margin-bottom: 0;
+  }
+
+  #suchanfrage #content_page .form_box_01 .form_left .title_field .note {
+    width: 100%;
+  }
+
+  #suchanfrage .wpcf7-list-item {
+    font-size: 13px;
+  }
+
+  #suchanfrage .checkbox_group .wpcf7-form-control-wrap input[type='checkbox'] {
+    width: 5%;
+  }
+
+  #suchanfrage #content_page .form_box_01 .form_left .checkbox_group .checkbox_css span {
+    font-size: 13px;
+  }
+
+  #suchanfrage #content_page .form_box_01 .form_left .checkbox_group {
+    margin-top: 0;
+  }
+
+  #suchanfrage #content_page .form_box_01 .form_right .group_input span.wpcf7-form-control-wrap,
+  #suchanfrage #content_page .form_box_01 .form_right .group_input span.wpcf7-form-control-wrap {
+    width: 80%;
+  }
+
+  #suchanfrage #content_page .form_box_01 .form_right .row_10 .wpcf7-list-item {
+    margin: 0;
+  }
+
+  #suchanfrage #content_page .form_box_01 .form_right .row_10 .wpcf7-list-item input {
+    width: 5%;
+    height: 14px;
+    margin: 0;
+  }
+
+  #suchanfrage #content_page .content .button {
+    margin-top: 0;
+  }
+
+  #suchanfrage .wpcf7-form-control-wrap .width_26 {
+    margin-right: 11px;
+  }
+  #suchanfrage #content_page .content .form_box_01 .row_4 .input_left,
+  #suchanfrage #content_page .content .form_box_01 .row_5 .input_left,
+  #suchanfrage #content_page .content .form_box_01 .row_6 .input_left,
+  #suchanfrage #content_page .content .form_box_01 .row_7 .input_left,
+  #suchanfrage #content_page .content .form_box_01 .row_8 .input_left {
+    margin-bottom: 5px;
+  }
+  #suchanfrage #content_page .content .form_box_01 .row_4 input,
+  #suchanfrage #content_page .content .form_box_01 .row_5 input,
+  #suchanfrage #content_page .content .form_box_01 .row_6 input,
+  #suchanfrage #content_page .content .form_box_01 .row_7 input,
+  #suchanfrage #content_page .content .form_box_01 .row_8 input {
+    width: 90%;
+    display: inline-block;
+  }
+  #suchanfrage #content_page .content .form_box_01 .row_4 span:last-child,
+  #suchanfrage #content_page .content .form_box_01 .row_5 span:last-child,
+  #suchanfrage #content_page .content .form_box_01 .row_6 span:last-child,
+  #suchanfrage #content_page .content .form_box_01 .row_7 span:last-child,
+  #suchanfrage #content_page .content .form_box_01 .row_8 span:last-child {
+    padding-left: 2%;
+  }
+
+  /*Empfehlung Page*/
+  #empfehlung #img_background {
+    background-image: url('images/img_background_vermieter.png');
+    background-repeat: no-repeat;
+    height: 90px;
+    background-size: 1000px;
+    background-position-x: 65%;
+  }
+
+  #empfehlung #img_background img {
+    display: none;
+  }
+
+  #empfehlung #content_page .content .title_form {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #empfehlung #content_page .content .form_right {
+    margin-top: 18px;
+  }
+
+  #empfehlung #content_page .form_right .title_field p {
+    margin-bottom: 10px;
+  }
+
+  #empfehlung #content_page .content .button {
+    margin-top: 0;
+  }
+
+  /*Kontakt Page*/
+  #kontakt #img_background {
+    background-image: url('images/img_background_vermieter.png');
+    background-repeat: no-repeat;
+    height: 90px;
+    background-size: 1000px;
+    background-position-x: 65%;
+  }
+
+  #kontakt #img_background img {
+    display: none;
+  }
+
+  #kontakt #content_page .title_content .title_main {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+
+  #kontakt #content_page .title_content .intro_01 {
+    font-size: 13px;
+    margin-bottom: 30px;
+    line-height: 18px;
+  }
+
+  #kontakt #content_page .title_content {
+    margin: 0;
+  }
+
+  #kontakt #content_page .content .form_left .title_field p,
+  #kontakt #content_page .content .form_right .title_field p {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  #kontakt #content_page .content .form_right {
+    margin-top: 25px;
+  }
+
+  #kontakt #content_page .content .form_right .form_box .title_field p:first-child,
+  #kontakt #content_page .content .form_right .form_box .title_field p:last-child {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  #kontakt #content_page .content .button {
+    margin-top: 20px;
+  }
+  #kontakt #content_page .thumbnail .caption ul {
+    font-size: 12px;
+  }
+
+  /*Impressum Page*/
+  #impressum {
+    margin-top: -10px;
+  }
+
+  #impressum #img_background {
+    background-image: url('images/img_background_impressum.png');
+    background-repeat: no-repeat;
+    height: 90px;
+    background-size: 1000px;
+    background-position-x: 65%;
+  }
+
+  #impressum #img_background img {
+    display: none;
+  }
+
+  #impressum #content_page .content_left .name_member {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  #impressum #content_page .content_left .name_member .position {
+    margin: 0;
+  }
+
+  #impressum #content_page .content_left,
+  #impressum #content_page .content_right {
+    padding: 0;
+  }
+
+  #impressum #content_page .content_left .license div {
+    display: none !important;
+  }
+
+  #impressum #content_page .content_left .license p {
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 14px;
+  }
+
+  #impressum #content_page .content_right {
+    text-align: left;
+    width: 100%;
+  }
+
+  #impressum #content_page .content_right .name_company {
+    margin-bottom: 10px;
+  }
+
+  #impressum #content_page .content_right .name_company br,
+  #impressum #content_page .content_right .address br,
+  #impressum #content_page .content_right .contact br {
+    display: none;
+  }
+
+  #impressum #content_page .content_right .address span,
+  #impressum #content_page .content_right .contact span {
+    margin: 0;
+  }
+
+  #impressum #content_page .content_right .address {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  #impressum #content_page .content_right .contact {
+    line-height: 26px;
+    color: #b32827;
+    font-size: 14px;
+  }
+
+  /*Search Page*/
+  #search #img_background {
+    background-image: url('images/img_background_vermieter.jpg');
+    background-repeat: no-repeat;
+    height: 90px;
+    background-size: 1000px;
+    background-position-x: 65%;
+  }
+
+  #search #img_background img {
+    display: none;
+  }
+
+  #search #content_page .title_content .title_main {
+    text-align: center;
+  }
+
+  #search #content_page .content .search {
+    width: 100%;
+  }
+
+  .sd input#s {
+    width: 90%;
+  }
+
+  #search #content_page {
+    margin-top: 20px;
+  }
+
+  #search .entry-title {
+    font-size: 14px;
+    font-family: 'proxima_nova_bold';
+  }
+
+  #search #content_page .width_75 {
+    width: 100%;
+  }
+
+  /*Wohnung Kaufen Page*/
+  .category-wohnung-kaufen #img_background {
+    background-image: url('images/img_background_impressum.png');
+    background-repeat: no-repeat;
+    height: 90px;
+    background-size: 1000px;
+    background-position-x: 65%;
+  }
+  .category-wohnung-kaufen #img_background img {
+    display: none;
+  }
+  .category-wohnung-kaufen .media-body,
+  .category-wohnung-kaufen .media-left {
+    padding: 0;
+    padding-top: 10px;
+    font-size: 14px;
+  }
+  .category-wohnung-kaufen .media-left img {
+    width: 100% !important;
+  }
+  .category-wohnung-kaufen .media-body .media-heading {
+    text-align: center;
+  }
+  .category-wohnung-kaufen .read_more {
+    text-align: center !important;
+  }
+  .category-wohnung-kaufen #form-search-cate {
+    margin-top: 20px;
+  }
+
+  #single-page .nav.nav-tabs li a {
+    padding: 10px 6px;
+    font-size: 14px;
+  }
+  #single-page table {
+    font-size: 14px;
+  }
+
+  /*Singe Post*/
+  .single-post #img_background {
+    background-image: url('images/img_background_impressum.png');
+    background-repeat: no-repeat;
+    height: 90px;
+    background-size: 1000px;
+    background-position-x: 65%;
+    margin-bottom: 20px;
+  }
+  .single-post #img_background img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .menu li {
+    float: left;
+    margin-right: 0;
+  }
+  #lico_service #content_page .title_content,
+  #vermieter_verkaufer #content_page .title_content,
+  #kontakt #content_page .title_content, #empfehlung #content_page .title_content,
+  #suchanfrage #content_page .title_content, #search #content_page .title_content {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .container-fluid,
+  .navbar-header {
+    padding: 0;
+  }
+
+  #header_page {
+    padding: 0;
+    margin: 0;
+  }
+
+  #header_page .social_icons {
+    width: 58%;
+    display: inline-block;
+    padding: 0;
+  }
+
+  #phone_btn {
+    width: 40%;
+    display: inline-block;
+  }
+
+  #header_menu .header_full #header_page .icon_se {
+    width: 70%;
+  }
+
+  #menu_page {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #menu_page .logo_home {
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+  }
+
+  #menu_page .logo_home img {
+    width: 100%;
+  }
+
+  #menu_page .collapse {
+    display: inline-block !important;
+    width: 84%;
+    padding: 0;
+  }
+
+  #header_menu #menu_page .menu_main .menu li a {
+    margin-left: 15px;
+    font-size: 11px;
+  }
+
+  #header_menu #menu_page .menu_main .menu li:nth-child(1) a {
+    margin: 0;
+  }
+
+  #img_background_home .rslides {
+    height: 250px;
+  }
+
+  #img_background_home .transparent-btns_tabs {
+    display: none;
+  }
+
+  #header_menu .header_full #header_page .phone_number {
+    right: 20%;
+  }
+
+  /*Service Page*/
+  #lico_service #img_background {
+    background-image: url('images/img_background_licoservice.png');
+    background-repeat: no-repeat;
+    height: 185px;
+    background-size: 2000px;
+    background-position-x: 65%;
+  }
+
+  #lico_service #img_background img {
+    display: none;
+  }
+
+  #img_background .img_caption .cnt_caption {
+    font-size: 30px;
+  }
+
+  #img_background .img_caption {
+    bottom: -70px;
+  }
+
+  #lico_service .all_service {
+    padding: 0;
+  }
+
+  #lico_service .service {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  /*Vermieter_verkaufer Page*/
+  #vermieter_verkaufer #img_background {
+    background-image: url('images/img_background_vermieter.png');
+    background-repeat: no-repeat;
+    height: 185px;
+    background-size: 2000px;
+    background-position-x: 65%;
+  }
+
+  #vermieter_verkaufer #img_background img {
+    display: none;
+  }
+
+  #vermieter_verkaufer .form_right {
+    margin-top: 30px;
+  }
+
+  #vermieter_verkaufer .content {
+    padding: 0;
+  }
+
+  #vermieter_verkaufer #content_page .content .wpcf7-form .form_right .form_box .text_box .sex_name .sex {
+    width: 28%;
+  }
+
+  #vermieter_verkaufer #content_page .content .wpcf7-form .form_right .form_box .text_box .box_01 {
+    width: 27%;
+    margin-right: 14px;
+  }
+
+  /*Suchanfrage Page*/
+  #suchanfrage #img_background {
+    background-image: url('images/img_background_vermieter.png');
+    background-repeat: no-repeat;
+    height: 185px;
+    background-size: 2000px;
+    background-position-x: 65%;
+  }
+
+  #suchanfrage #img_background img {
+    display: none;
+  }
+
+  .wpcf7-form-control-wrap .width_26 {
+    width: 28%;
+    margin-right: 14px;
+  }
+
+  #suchanfrage span.wpcf7-list-item input {
+    width: 5%;
+    height: 14px;
+  }
+
+  #suchanfrage #content_page .content .title_form {
+    text-align: center;
+  }
+
+  #suchanfrage #content_page .content .title_form span br {
+    display: none;
+  }
+  #suchanfrage #content_page .content .form_box_02 {
+    margin-top: 30px;
+  }
+
+  /*Empfehlung Page*/
+  #empfehlung #img_background {
+    background-image: url('images/img_background_vermieter.png');
+    background-repeat: no-repeat;
+    height: 185px;
+    background-size: 2000px;
+    background-position-x: 65%;
+  }
+
+  #empfehlung #img_background img {
+    display: none;
+  }
+
+  #empfehlung #content_page .content .title_form {
+    text-align: center;
+  }
+
+  /*Kontakt Page*/
+  #kontakt #img_background {
+    background-image: url('images/img_background_vermieter.png');
+    background-repeat: no-repeat;
+    height: 185px;
+    background-size: 2000px;
+    background-position-x: 65%;
+  }
+
+  #kontakt #img_background img {
+    display: none;
+  }
+
+  /*Impressum Page*/
+  #impressum #img_background {
+    background-image: url('images/img_background_impressum.png');
+    background-repeat: no-repeat;
+    height: 185px;
+    background-size: 2000px;
+    background-position-x: 65%;
+  }
+
+  #impressum #img_background img {
+    display: none;
+  }
+
+  #impressum .content_left {
+    display: inline-block;
+    width: 60%;
+  }
+
+  #impressum .content_right {
+    display: inline-block;
+    width: 39%;
+    vertical-align: top;
+  }
+
+  #impressum #content_page {
+    margin-top: 30px;
+  }
+
+  /*Search Page*/
+  #search #img_background {
+    background-image: url('images/img_background_impressum.png');
+    background-repeat: no-repeat;
+    height: 185px;
+    background-size: 2000px;
+    background-position-x: 65%;
+  }
+
+  #search #img_background img {
+    display: none;
+  }
+
+  #search #content_page {
+    margin-top: 30px;
+  }
+
+  #search #content_page .title_content .title_main {
+    margin-top: 0;
+  }
+
+  #search #content_page .content .search,
+  #search #content_page .result_search {
+    width: 100%;
+  }
+
+  /*Wohnung Kaufen Page*/
+  .category-wohnung-kaufen #img_background {
+    background-image: url('images/img_background_impressum.png');
+    background-repeat: no-repeat;
+    height: 185px;
+    background-size: 2000px;
+    background-position-x: 65%;
+  }
+  .category-wohnung-kaufen #img_background img {
+    display: none;
+  }
+  .category-wohnung-kaufen .media-body {
+    padding-top: 10px;
+  }
+  .category-wohnung-kaufen #form-search-cate {
+    margin-top: 20px;
+  }
+
+  /*Singe Post*/
+  .single-post #img_background {
+    background-image: url('images/img_background_impressum.png');
+    background-repeat: no-repeat;
+    height: 185px;
+    background-size: 2000px;
+    background-position-x: 65%;
+    margin-bottom: 50px;
+  }
+  .single-post #img_background img {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  .menu li {
+    margin-right: 20px;
+    font-size: 13px;
+  }
+  #header_menu .header_full #header_page .icon_se {
+    width: 80%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

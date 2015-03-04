@@ -1,0 +1,759 @@
+@font-face {
+  font-family: 'proxima_nova_extrabold';
+  src: url("fonts/Mark Simonson - Proxima Nova Extrabold.otf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'proxima_nova_semibold';
+  src: url("fonts/Mark Simonson - Proxima Nova Semibold.otf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'proxima_nova_bold';
+  src: url("fonts/Mark Simonson - Proxima Nova Bold.otf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'proxima_nova_light';
+  src: url("fonts/Mark Simonson - Proxima Nova Light.otf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'proxima_nova_light_italic';
+  src: url("fonts/Mark Simonson - Proxima Nova Light Italic.otf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'proxima_nova_condensed_regular';
+  src: url("fonts/Mark Simonson - Proxima Nova Condensed Regular.otf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'proxima_nova_thin';
+  src: url("fonts/Mark Simonson - Proxima Nova Thin.otf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'proxima_nova_regular';
+  src: url("fonts/Mark Simonson - Proxima Nova Regular.otf");
+  font-weight: normal;
+  font-style: normal; }
+.container {
+  margin: 0 auto;
+  font-family: proxima_nova_light;
+  font-size: 16px;
+  color: #707070;
+  letter-spacing: 1px; }
+
+.inline {
+  display: inline-block; }
+
+#wrapper a {
+  text-decoration: none; }
+
+input {
+  height: 35px;
+  padding-left: 10px;
+  border: 1px solid #d4d4d4; }
+
+textarea {
+  padding-left: 10px;
+  padding-top: 10px; }
+
+.required span:last-child {
+  font-size: 12px;
+  font-family: proxima_nova_light_italic; }
+
+.width_26 {
+  width: 26%;
+  margin-right: 8px; }
+
+.width_70 {
+  width: 70%; }
+
+/* Header */
+#header_menu .header_full {
+  border-bottom: 1px solid #e4e4e4; }
+  #header_menu .header_full #header_page .border_left {
+    border-left: 1px solid #e4e4e4;
+    display: inline-block;
+    width: 4.1%;
+    padding: 11px 0px 13px; }
+  #header_menu .header_full #header_page .icon_fb {
+    padding-left: 15px; }
+  #header_menu .header_full #header_page .icon_tw {
+    padding-left: 10px; }
+  #header_menu .header_full #header_page .icon_be {
+    padding-left: 10px; }
+  #header_menu .header_full #header_page .icon_se {
+    width: 85%;
+    padding-left: 10px;
+    padding-bottom: 11px; }
+    #header_menu .header_full #header_page .icon_se a {
+      color: #d4d4d4;
+      font-size: 12px;
+      font-family: proxima_nova_light_italic; }
+    #header_menu .header_full #header_page .icon_se span {
+      margin-right: 5px;
+      display: inline-block;
+      vertical-align: middle; }
+  #header_menu .header_full #header_page .phone_number {
+    position: relative;
+    background: #8e2324;
+    width: 66%;
+    padding: 11px;
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 30%; }
+    #header_menu .header_full #header_page .phone_number:before {
+      position: absolute;
+      content: '';
+      width: 0;
+      height: 0;
+      border-top: 42px solid transparent;
+      border-right: 39px solid #8e2324;
+      left: -39px;
+      top: 0; }
+    #header_menu .header_full #header_page .phone_number:after {
+      position: absolute;
+      content: '';
+      width: 0;
+      height: 0;
+      border-bottom: 42px solid transparent;
+      border-left: 39px solid #8e2324;
+      right: -39px;
+      top: 0; }
+#header_menu #menu_page {
+  margin-top: 22px;
+  margin-bottom: 27px; }
+  #header_menu #menu_page .menu_main {
+    text-align: right;
+    padding-top: 35px; }
+    #header_menu #menu_page .menu_main .active_page {
+      border-bottom: 2px solid #8e2324; }
+    #header_menu #menu_page .menu_main a {
+      margin-left: 30px;
+      color: #9e9e9e;
+      padding-bottom: 3px; }
+      #header_menu #menu_page .menu_main a:first-child {
+        margin-left: 0px; }
+    #header_menu #menu_page .menu_main a:hover,
+    #header_menu #menu_page .menu_main a:active {
+      border-bottom: 2px solid #8e2324; }
+
+#footer {
+  border-top: 1px solid #e4e4e4; }
+  #footer .footer_1 {
+    margin-top: 60px; }
+    #footer .footer_1 .col_footer .title_list {
+      color: #3c3c3c;
+      font-family: proxima_nova_regular; }
+    #footer .footer_1 .col_footer .list_menu {
+      margin-top: 20px; }
+      #footer .footer_1 .col_footer .list_menu a {
+        color: #9e9e9e; }
+      #footer .footer_1 .col_footer .list_menu li {
+        margin-bottom: 15px; }
+    #footer .footer_1 .col_footer .address {
+      margin-top: 20px;
+      color: #a5a5a5;
+      font-family: proxima_nova_bold;
+      font-size: 14px;
+      letter-spacing: 1px; }
+    #footer .footer_1 .col_footer .contact {
+      margin-top: 20px; }
+      #footer .footer_1 .col_footer .contact li {
+        margin-bottom: 10px; }
+        #footer .footer_1 .col_footer .contact li span {
+          display: inline-block;
+          vertical-align: middle; }
+        #footer .footer_1 .col_footer .contact li .icons_group {
+          margin-right: 5px; }
+        #footer .footer_1 .col_footer .contact li:last-child {
+          font-size: 14px; }
+  #footer .background_footer {
+    position: relative;
+    bottom: 80px; }
+    #footer .background_footer img {
+      width: 100%; }
+  #footer .footer_2 {
+    text-align: center;
+    margin-top: -85px; }
+    #footer .footer_2 .copy_right {
+      border-top: 2.5px solid #f4f4f4;
+      letter-spacing: 1px;
+      margin-bottom: 50px;
+      padding-top: 40px;
+      font-size: 12px;
+      color: #9e9e9e; }
+      #footer .footer_2 .copy_right .word_red {
+        color: #8e2324; }
+
+#img_background .img_caption {
+  position: relative;
+  bottom: 90px; }
+  #img_background .img_caption .cnt_caption {
+    background: #fff;
+    border-left: 6px solid #8e2324;
+    padding: 0px 0px 5px;
+    font-size: 50px;
+    font-family: proxima_nova_thin; }
+    #img_background .img_caption .cnt_caption span {
+      display: inline-block; }
+      #img_background .img_caption .cnt_caption span:first-child {
+        color: #707070;
+        margin-left: 15px; }
+      #img_background .img_caption .cnt_caption span:last-child {
+        color: #707070;
+        margin-right: 20px; }
+
+#lico_service #content_page,
+#vermieter_verkaufer #content_page,
+#kontakt #content_page,
+#empfehlung #content_page,
+#suchanfrage #content_page,
+#search #content_page {
+  padding-bottom: 75px;
+  margin-top: -52px; }
+  #lico_service #content_page .title_content,
+  #vermieter_verkaufer #content_page .title_content,
+  #kontakt #content_page .title_content,
+  #empfehlung #content_page .title_content,
+  #suchanfrage #content_page .title_content,
+  #search #content_page .title_content {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px; }
+    #lico_service #content_page .title_content .title_main,
+    #vermieter_verkaufer #content_page .title_content .title_main,
+    #kontakt #content_page .title_content .title_main,
+    #empfehlung #content_page .title_content .title_main,
+    #suchanfrage #content_page .title_content .title_main,
+    #search #content_page .title_content .title_main {
+      font-family: proxima_nova_bold;
+      font-size: 20px;
+      color: #3c3c3c;
+      margin-top: 70px;
+      margin-bottom: 25px; }
+    #lico_service #content_page .title_content .intro_01,
+    #vermieter_verkaufer #content_page .title_content .intro_01,
+    #kontakt #content_page .title_content .intro_01,
+    #empfehlung #content_page .title_content .intro_01,
+    #suchanfrage #content_page .title_content .intro_01,
+    #search #content_page .title_content .intro_01 {
+      line-height: 25px; }
+    #lico_service #content_page .title_content .intro_02,
+    #vermieter_verkaufer #content_page .title_content .intro_02,
+    #kontakt #content_page .title_content .intro_02,
+    #empfehlung #content_page .title_content .intro_02,
+    #suchanfrage #content_page .title_content .intro_02,
+    #search #content_page .title_content .intro_02 {
+      margin-top: 35px;
+      font-family: proxima_nova_light_italic;
+      font-size: 12px;
+      line-height: 28px; }
+  #lico_service #content_page .content .width_full,
+  #vermieter_verkaufer #content_page .content .width_full,
+  #kontakt #content_page .content .width_full,
+  #empfehlung #content_page .content .width_full,
+  #suchanfrage #content_page .content .width_full,
+  #search #content_page .content .width_full {
+    width: 100%; }
+  #lico_service #content_page .content .title_form,
+  #vermieter_verkaufer #content_page .content .title_form,
+  #kontakt #content_page .content .title_form,
+  #empfehlung #content_page .content .title_form,
+  #suchanfrage #content_page .content .title_form,
+  #search #content_page .content .title_form {
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #707070; }
+  #lico_service #content_page .content .title_field,
+  #vermieter_verkaufer #content_page .content .title_field,
+  #kontakt #content_page .content .title_field,
+  #empfehlung #content_page .content .title_field,
+  #suchanfrage #content_page .content .title_field,
+  #search #content_page .content .title_field {
+    font-family: proxima_nova_bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #707070; }
+    #lico_service #content_page .content .title_field p,
+    #vermieter_verkaufer #content_page .content .title_field p,
+    #kontakt #content_page .content .title_field p,
+    #empfehlung #content_page .content .title_field p,
+    #suchanfrage #content_page .content .title_field p,
+    #search #content_page .content .title_field p {
+      font-family: proxima_nova_bold;
+      font-size: 14px;
+      line-height: 16px;
+      color: #707070; }
+  #lico_service #content_page .content .text_box select,
+  #vermieter_verkaufer #content_page .content .text_box select,
+  #kontakt #content_page .content .text_box select,
+  #empfehlung #content_page .content .text_box select,
+  #suchanfrage #content_page .content .text_box select,
+  #search #content_page .content .text_box select {
+    margin-bottom: 15px;
+    height: 36px; }
+  #lico_service #content_page .content .text_box input,
+  #vermieter_verkaufer #content_page .content .text_box input,
+  #kontakt #content_page .content .text_box input,
+  #empfehlung #content_page .content .text_box input,
+  #suchanfrage #content_page .content .text_box input,
+  #search #content_page .content .text_box input {
+    margin-bottom: 15px;
+    height: 35px; }
+  #lico_service #content_page .content .text_box .checkbox_css input,
+  #vermieter_verkaufer #content_page .content .text_box .checkbox_css input,
+  #kontakt #content_page .content .text_box .checkbox_css input,
+  #empfehlung #content_page .content .text_box .checkbox_css input,
+  #suchanfrage #content_page .content .text_box .checkbox_css input,
+  #search #content_page .content .text_box .checkbox_css input {
+    margin: -2px 5px 0px 0px;
+    border: none;
+    height: 14px;
+    display: inline-block; }
+  #lico_service #content_page .content .text_box .input_css input,
+  #vermieter_verkaufer #content_page .content .text_box .input_css input,
+  #kontakt #content_page .content .text_box .input_css input,
+  #empfehlung #content_page .content .text_box .input_css input,
+  #suchanfrage #content_page .content .text_box .input_css input,
+  #search #content_page .content .text_box .input_css input {
+    margin: 0px 2px 15px 0px; }
+  #lico_service #content_page .content .comment,
+  #vermieter_verkaufer #content_page .content .comment,
+  #kontakt #content_page .content .comment,
+  #empfehlung #content_page .content .comment,
+  #suchanfrage #content_page .content .comment,
+  #search #content_page .content .comment {
+    height: 104px;
+    width: 100%;
+    border-color: #d4d4d4; }
+  #lico_service #content_page .content .button,
+  #vermieter_verkaufer #content_page .content .button,
+  #kontakt #content_page .content .button,
+  #empfehlung #content_page .content .button,
+  #suchanfrage #content_page .content .button,
+  #search #content_page .content .button {
+    text-align: center;
+    margin-top: 68px; }
+    #lico_service #content_page .content .button .btn_red,
+    #vermieter_verkaufer #content_page .content .button .btn_red,
+    #kontakt #content_page .content .button .btn_red,
+    #empfehlung #content_page .content .button .btn_red,
+    #suchanfrage #content_page .content .button .btn_red,
+    #search #content_page .content .button .btn_red {
+      background: #8e2324;
+      border: none;
+      height: 37px;
+      width: 37px;
+      vertical-align: top; }
+    #lico_service #content_page .content .button .btn_white,
+    #vermieter_verkaufer #content_page .content .button .btn_white,
+    #kontakt #content_page .content .button .btn_white,
+    #empfehlung #content_page .content .button .btn_white,
+    #suchanfrage #content_page .content .button .btn_white,
+    #search #content_page .content .button .btn_white {
+      background: #fff;
+      border: 1px solid #d4d4d4;
+      height: 37px;
+      padding: 0px 13px;
+      margin-left: -6px;
+      font-size: 12px;
+      letter-spacing: 1px;
+      word-spacing: 1px; }
+  #lico_service #content_page .content .css_select,
+  #vermieter_verkaufer #content_page .content .css_select,
+  #kontakt #content_page .content .css_select,
+  #empfehlung #content_page .content .css_select,
+  #suchanfrage #content_page .content .css_select,
+  #search #content_page .content .css_select {
+    height: 36px;
+    overflow: hidden;
+    background: url(../images/down_arrow.png) no-repeat 97% #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 15px; }
+    #lico_service #content_page .content .css_select .dropdown_css,
+    #vermieter_verkaufer #content_page .content .css_select .dropdown_css,
+    #kontakt #content_page .content .css_select .dropdown_css,
+    #empfehlung #content_page .content .css_select .dropdown_css,
+    #suchanfrage #content_page .content .css_select .dropdown_css,
+    #search #content_page .content .css_select .dropdown_css {
+      width: 100%;
+      background: transparent;
+      padding: 10px;
+      border: none;
+      -webkit-appearance: none;
+      -moz-appearance: none; }
+
+#home_page #img_background_home .img_caption {
+  position: relative;
+  bottom: 220px;
+  padding-top: 330px;
+  padding-bottom: 115px;
+  color: #ffffff; }
+  #home_page #img_background_home .img_caption .cap_01 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    letter-spacing: 2px; }
+  #home_page #img_background_home .img_caption .cap_02 {
+    position: relative;
+    font-size: 20px;
+    font-family: proxima_nova_bold;
+    background: #8e2324;
+    padding: 8px 10px 6px 20px;
+    letter-spacing: 9px;
+    word-spacing: 1px; }
+    #home_page #img_background_home .img_caption .cap_02:after {
+      position: absolute;
+      content: '';
+      width: 0;
+      height: 0;
+      border-top: 38px solid transparent;
+      border-left: 39px solid #8e2324;
+      right: -39px;
+      top: 0; }
+  #home_page #img_background_home .img_caption .cap_03 {
+    font-size: 28px;
+    font-family: proxima_nova_light_italic;
+    margin-top: 20px;
+    letter-spacing: 3px; }
+#home_page #content_1 {
+  margin-top: 60px;
+  margin-bottom: 35px; }
+  #home_page #content_1 .tittle_cnt_1 {
+    text-align: center;
+    margin-bottom: 55px;
+    color: #3c3c3c;
+    font-family: proxima_nova_bold;
+    font-size: 20px; }
+    #home_page #content_1 .tittle_cnt_1 h3 {
+      line-height: 32px; }
+  #home_page #content_1 .icon_check {
+    width: 5%;
+    display: inline-block;
+    vertical-align: top; }
+  #home_page #content_1 .cnt_list {
+    width: 94%;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 27px;
+    margin-top: -5px; }
+  #home_page #content_1 .list-check {
+    margin-bottom: 20px; }
+#home_page #content_2 {
+  position: relative; }
+  #home_page #content_2 #line {
+    border-top: 1px solid #e4e4e4;
+    width: 97%;
+    margin-left: 15px; }
+  #home_page #content_2 .title_cnt_2 {
+    background: #8e2324;
+    color: #ffffff;
+    font-family: proxima_nova_bold;
+    font-size: 14px;
+    padding: 6px 0px 6px 12px;
+    width: 13.3%;
+    margin-left: 15px;
+    position: absolute;
+    top: -13px; }
+    #home_page #content_2 .title_cnt_2:after {
+      position: absolute;
+      content: '';
+      width: 0;
+      height: 0;
+      border-top: 26px solid transparent;
+      border-left: 26px solid #8e2324;
+      right: -26px;
+      top: 0; }
+  #home_page #content_2 .img_sec {
+    margin-top: 35px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #8e2324;
+    width: 97.8%;
+    padding-bottom: 3px; }
+    #home_page #content_2 .img_sec img {
+      width: 100%; }
+  #home_page #content_2 .content_box {
+    font-size: 14px;
+    text-align: center;
+    margin-left: 0%;
+    margin-right: 2%; }
+    #home_page #content_2 .content_box .title_col {
+      margin-bottom: 20px;
+      color: #3c3c3c;
+      font-family: proxima_nova_bold;
+      font-size: 14px;
+      line-height: 20px; }
+    #home_page #content_2 .content_box .cnt_col {
+      margin-bottom: 30px; }
+      #home_page #content_2 .content_box .cnt_col p {
+        line-height: 27px; }
+    #home_page #content_2 .content_box .read_more {
+      margin-bottom: 60px;
+      text-align: center; }
+      #home_page #content_2 .content_box .read_more a {
+        border: 1px solid #e4e4e4;
+        padding: 7px 10px 7px 0px;
+        color: #8e2324; }
+      #home_page #content_2 .content_box .read_more .right_arrow {
+        background: #8e2324;
+        padding: 8px 16px; }
+      #home_page #content_2 .content_box .read_more .name_arrow {
+        font-size: 12px;
+        font-family: proxima_nova_light;
+        padding-left: 5px; }
+
+#lico_service #content_page {
+  text-align: center; }
+  #lico_service #content_page .service_box {
+    margin-top: 75px;
+    margin-bottom: 75px; }
+    #lico_service #content_page .service_box .title_ser {
+      margin-bottom: 80px;
+      font-size: 30px;
+      font-family: proxima_nova_thin; }
+    #lico_service #content_page .service_box .all_service a {
+      color: #9e9e9e; }
+    #lico_service #content_page .service_box .all_service span {
+      display: block;
+      line-height: 26px; }
+    #lico_service #content_page .service_box .all_service .icon_ser {
+      margin-bottom: 40px; }
+    #lico_service #content_page .service_box .all_service .row_01 {
+      margin-bottom: 70px; }
+
+#impressum #content_page {
+  padding-bottom: 75px;
+  margin-top: 23px; }
+  #impressum #content_page .content_left .name_member {
+    display: block;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #8e2324;
+    width: 26.5%; }
+    #impressum #content_page .content_left .name_member .name {
+      font-size: 24px;
+      margin-bottom: 5px; }
+    #impressum #content_page .content_left .name_member .position {
+      font-family: proxima_nova_light_italic;
+      margin-bottom: 15px; }
+  #impressum #content_page .content_left .license p {
+    line-height: 33px; }
+  #impressum #content_page .content_right {
+    text-align: right; }
+    #impressum #content_page .content_right .name_company {
+      font-family: proxima_nova_bold;
+      font-size: 20px;
+      margin-bottom: 30px; }
+      #impressum #content_page .content_right .name_company span:first-child {
+        color: #8e2324; }
+      #impressum #content_page .content_right .name_company span:last-child {
+        color: #3c3c3c; }
+    #impressum #content_page .content_right .address {
+      margin-bottom: 30px;
+      line-height: 20px; }
+      #impressum #content_page .content_right .address span {
+        display: block;
+        margin-bottom: 15px; }
+    #impressum #content_page .content_right .contact span {
+      display: block;
+      margin-bottom: 15px; }
+    #impressum #content_page .content_right .contact a {
+      color: #9e9e9e; }
+
+#vermieter_verkaufer #content_page {
+  padding-bottom: 75px; }
+  #vermieter_verkaufer #content_page .title_content {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px; }
+    #vermieter_verkaufer #content_page .title_content .intro_02 {
+      margin-top: 35px;
+      font-family: proxima_nova_light_italic;
+      font-size: 12px;
+      line-height: 28px; }
+  #vermieter_verkaufer #content_page .content .form-box .width_full {
+    width: 100%; }
+  #vermieter_verkaufer #content_page .content .form-box .title_form {
+    font-size: 20px;
+    margin-bottom: 40px; }
+  #vermieter_verkaufer #content_page .content .form-box .title_field p {
+    font-family: proxima_nova_bold;
+    font-size: 14px;
+    line-height: 16px; }
+  #vermieter_verkaufer #content_page .content .form-box .text_box select {
+    margin-bottom: 15px;
+    height: 36px; }
+  #vermieter_verkaufer #content_page .content .form-box .text_box input {
+    margin-bottom: 15px;
+    height: 35px; }
+  #vermieter_verkaufer #content_page .content .form-box .form_left select {
+    width: 100%; }
+  #vermieter_verkaufer #content_page .content .form-box .form_left input {
+    width: 100%; }
+  #vermieter_verkaufer #content_page .content .form-box .form_left .title_field p {
+    margin-bottom: 35px; }
+  #vermieter_verkaufer #content_page .content .form-box .form_left .title_field .margin_30px {
+    margin-bottom: 30px; }
+  #vermieter_verkaufer #content_page .content .form-box .form_left .field_unit {
+    position: relative; }
+    #vermieter_verkaufer #content_page .content .form-box .form_left .field_unit .unit {
+      position: absolute;
+      right: 2px;
+      top: 2px;
+      font-size: 14px;
+      color: #707070;
+      background: #fff;
+      text-align: center;
+      padding: 13px 10px 0px 6px; }
+      #vermieter_verkaufer #content_page .content .form-box .form_left .field_unit .unit sup {
+        font-size: 11px;
+        margin-left: -5px; }
+  #vermieter_verkaufer #content_page .content .form-box .form_right .form_box .title_field p {
+    margin-bottom: 20px; }
+  #vermieter_verkaufer #content_page .content .form-box .form_right .form_box .title_field .margin_27px {
+    margin-bottom: 27px; }
+  #vermieter_verkaufer #content_page .content .form-box .form_right .form_box .title_field .margin_37px {
+    margin-bottom: 37px; }
+  #vermieter_verkaufer #content_page .content .form-box .form_right .form_box .text_box .sex_name {
+    display: inline-block; }
+    #vermieter_verkaufer #content_page .content .form-box .form_right .form_box .text_box .sex_name .sex {
+      width: 24%;
+      margin-right: 13px;
+      display: inline-block;
+      vertical-align: top;
+      background-position: 87%; }
+    #vermieter_verkaufer #content_page .content .form-box .form_right .form_box .text_box .sex_name .name {
+      display: inline-block;
+      vertical-align: top; }
+  #vermieter_verkaufer #content_page .content .form-box .form_right .form_box .text_box .name {
+    width: 71%; }
+    #vermieter_verkaufer #content_page .content .form-box .form_right .form_box .text_box .name .name_01 {
+      width: 38%;
+      margin-right: 13px; }
+    #vermieter_verkaufer #content_page .content .form-box .form_right .form_box .text_box .name .name_02 {
+      width: 55%; }
+  #vermieter_verkaufer #content_page .content .form-box .form_right .form_box .text_box .box_01 {
+    width: 24%;
+    margin-right: 13px; }
+  #vermieter_verkaufer #content_page .content .form-box .form_right .form_box .text_box .box_02 {
+    width: 71%; }
+
+#kontakt #content_page .content .sex_land {
+  width: 60%; }
+#kontakt #content_page .content .form_left .title_field p {
+  margin-bottom: 35px; }
+#kontakt #content_page .content .form_right .sentence {
+  margin-bottom: 15px;
+  font-family: proxima_nova_light_italic;
+  font-size: 14px; }
+#kontakt #content_page .content .form_right .form_box .title_field p:first-child {
+  margin-bottom: 110px; }
+#kontakt #content_page .content .form_right .form_box .title_field p:last-child {
+  margin-top: 103px; }
+#kontakt #content_page .content .form_right .form_box .text_box .comment {
+  margin-bottom: 15px; }
+#kontakt #content_page .content .form_right .form_box .text_box .security {
+  margin-bottom: 5px; }
+  #kontakt #content_page .content .form_right .form_box .text_box .security input {
+    width: 30%; }
+  #kontakt #content_page .content .form_right .form_box .text_box .security .captcha {
+    width: 75px;
+    display: inline-block;
+    vertical-align: top; }
+    #kontakt #content_page .content .form_right .form_box .text_box .security .captcha img {
+      width: 100%; }
+
+#empfehlung #content_page {
+  padding-top: 75px; }
+  #empfehlung #content_page .form_box .cnt_title {
+    margin-bottom: 40px; }
+    #empfehlung #content_page .form_box .cnt_title p {
+      font-size: 20px;
+      margin-bottom: 30px;
+      color: #707070; }
+  #empfehlung #content_page .form_left .text_box .comment {
+    height: 135px !important; }
+  #empfehlung #content_page .form_right .title_field p {
+    margin-bottom: 35px; }
+
+#suchanfrage #content_page .row_style {
+  margin-bottom: 15px; }
+#suchanfrage #content_page .checkbox_css {
+  margin-bottom: -5px; }
+  #suchanfrage #content_page .checkbox_css input {
+    margin-top: 0px;
+    margin-right: 7px; }
+#suchanfrage #content_page .form_box_01 .form_left .title_field .note {
+  font-size: 12px;
+  font-family: proxima_nova_light;
+  display: block;
+  margin-top: 20px;
+  width: 80%; }
+#suchanfrage #content_page .form_box_01 .form_left .checkbox_group {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  #suchanfrage #content_page .form_box_01 .form_left .checkbox_group .checkbox_css span {
+    font-size: 11px; }
+#suchanfrage #content_page .form_box_01 .form_right .group_input span {
+  color: #707070; }
+#suchanfrage #content_page .form_box_01 .form_right .group_input .input_left {
+  width: 49%;
+  display: inline-block; }
+  #suchanfrage #content_page .form_box_01 .form_right .group_input .input_left input {
+    width: 83%; }
+#suchanfrage #content_page .form_box_01 .form_right .group_input .input_right {
+  width: 49%;
+  display: inline-block; }
+  #suchanfrage #content_page .form_box_01 .form_right .group_input .input_right input {
+    width: 84%; }
+  #suchanfrage #content_page .form_box_01 .form_right .group_input .input_right sup {
+    font-size: 12px;
+    margin-left: -5px; }
+#suchanfrage #content_page .form_box_02 .form_left .row_1 .css_select {
+  width: 25%;
+  margin-bottom: 0px;
+  margin-right: 10px;
+  background: url(../images/down_arrow.png) no-repeat 87% #fff; }
+#suchanfrage #content_page .form_box_02 .form_left .row_1 .name_01 {
+  width: 25%;
+  vertical-align: top;
+  margin-right: 10px; }
+#suchanfrage #content_page .form_box_02 .form_left .row_1 .name_02 {
+  width: 41%;
+  vertical-align: top; }
+
+#search #content_page .title_content {
+  margin: 0px;
+  text-align: left; }
+#search #content_page .content {
+  border-bottom: 1px solid #d4d4d4;
+  padding-bottom: 35px;
+  margin-bottom: 40px; }
+  #search #content_page .content .search {
+    width: 39%;
+    position: relative;
+    margin-bottom: 12px; }
+    #search #content_page .content .search .icon_search {
+      position: absolute;
+      right: 10px;
+      top: 11px; }
+#search #content_page .width_75 {
+  width: 75%; }
+#search #content_page .result_search {
+  margin-bottom: 35px;
+  font-size: 14px; }
+  #search #content_page .result_search .title_result {
+    font-size: 24px;
+    font-family: proxima_nova_regular;
+    color: #8e2324;
+    margin-bottom: 25px; }
+    #search #content_page .result_search .title_result span {
+      border-bottom: 1px solid #c69191; }
+  #search #content_page .result_search .cnt_result .word_search {
+    font-family: proxima_nova_extrabold; }
+
+/*# sourceMappingURL=style.css.map */
